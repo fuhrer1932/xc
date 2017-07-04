@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<title> Infinite Space Academy </title>
+<link rel="stylesheet" href="School.css" type="text/css">
+    <style>
+       #map {
+        height: 10000px;
+        width: 100%;
+       }
+    </style>
+</head>
+<body>
+<h1 align= "center"> <font face="Open Sans" color="#ffffff" size="7"> Infinite Space Academy </font> </h1>
+<!-- LOGO -->
+<IMG STYLE="position:absolute; TOP:12px; LEFT:150px; WIDTH:110px; HEIGHT:150px" src="Logo.jpeg"> 
+<IMG STYLE="position:absolute; TOP:12px; LEFT:1040px; WIDTH:110px; HEIGHT:150px" src="Logo.jpeg">
+<!-- END LOGO -->
+<h1 align= "center"> <font face="Open Sans" color="#ffffff" size="5"><i><u> "Imagine, Explore, Discover" </font> </h1></i></u>
+<hr class="mainDivider">
+<div class="topnav"> 
+
+  <a href ="School Website.html">Home</a>
+  <a href="Contacts.html">Contacts/Address</a>
+  <a href="Parents.html">Parents</a>
+  <a href="Students.html">Students</a>
+  <a href="Extras.html">Extras</a>
+</div> 
+<div style="padding-left:16px"> 
+</div> 
+<h1> <font face="Open Sans" color="#ffffff" size="6"><b>Contacts/Address</font> </h1></b>
+<hr>
+<!-- Address and contacts and stuff-->
+<h1><font color="#ffffff" size="6">Our Address:</h1></font>
+<ul>
+	<font color="#ffffff" size="5"><li>Cronenberg World (Dimension Z7-73B)</li></font>
+	<hr>
+	<font color="#ffffff" size="5"><li>North America</li></font>
+	<hr>
+	<font color="#ffffff" size="5"><li>Democratic Peoples Federal Republic of Vanuta</li></font>
+	<hr>
+	<font color="#ffffff" size="5"><li>Olympia</li></font>
+	<hr>
+	<font color="#ffffff" size="5"><li>Middlesex</li></font>
+	<hr>
+	<font color="#ffffff" size="5"><li>ZT50 9SZ</li></font>
+	<hr>
+	<font color="#ffffff" size="5"><li>3589 Boulevard Road</li></font>
+	<hr>
+	
+</ul>
+<h3><font color="#ffffff" size="6">Our Contacts:</h3></font>
+<ul>
+	<font color="#ffffff" size="5"><li>Email: SpaceAcademy@spacemail.com</li></font>
+	<font color="#ffffff" size="5"><li>Fax: 051142</li></font>
+	<font color="#ffffff" size="5"><li>Phone: 06483349100</li></font>
+</ul>
+<!-- Google Maps-->
+<footer>
+<div id="map" style="width:50%;height:500px" align="right"></div>
+
+<script>
+function myMap() {
+  var mapCanvas =  document.getElementById("map");
+  var mapOptions = {
+     center: new google.maps.LatLng(47.041398, -122.896774),  
+    zoom: 10
+  }
+  var  map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</footer>
+</body>
+</html>
